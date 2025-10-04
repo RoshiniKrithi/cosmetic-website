@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            background-image: url(./90687.jpg);
+            margin:0;
+            padding:0;
+            background-size:cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 50vh;
+            transform: scale(0.9);
+            zoom:50%;
+
+        }
+        .box{
+            text-align: center;
+            border:3px solid black;
+            height:1000px;
+            width: 600px;
+            justify-content: center;
+            width:400px;
+            background-color: white;
+            font-size:100%;
+            padding: 0%;
+            border-radius: 10%;
+            padding: 10px;
+            margin-left: 30%;
+            margin-bottom: 20%;
+            align-items: center; 
+            opacity:0.8;
+
+        }
+        body .box{
+            
+            width: 1000px;
+        }
+        body .box{
+            margin-bottom: 10%;
+        }
+
+        h1{
+            text-align: center;
+            font-size: 7em;
+            margin-top: 3%;
+        }
+        label{
+            font-size: 30px;
+            font-weight:bold ;
+        }
+        input,select{
+            width:70%;
+            height:40px;
+            font-size: larger;
+        }
+        button{
+            width:50%;
+            height:50px;
+            font-size: 30px;
+            background-color:#FF7D29;
+            color:white;
+            border:none;
+            border-radius:none;
+            cursor:pointer;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h1>Order Now</h1>
+    <br>
+    <br>
+    <br>
+    <div class="box">
+        
+        <form >
+            <br>
+            <br>
+            <label for="name">Name</label>
+            <br>
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <br>
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <br>
+            <input type="email" name="email" placeholder="Enter your email" >
+            <br>
+            <br>
+            <br>
+            <label for="phone">Phone</label>
+            <br>
+            <input type="tel" name="phone" placeholder="Enter your phone number"required>
+            <br>
+            <br>
+            <br>
+            <label for="address">Address</label>
+            <br>
+            <input type="text" name="address" placeholder="Enter your address" required>
+            <br>
+            <br>
+            <br>
+            <label for="city">City</label>
+            <br>
+            <input type="text" name="city" placeholder="Enter your city" required>
+            <br>
+            <br>
+            <br>
+            <label for="state">State</label>
+            <br>
+            <input type="text" name="state" placeholder="Enter your state">
+            <br>
+            <br>
+            <br>
+            <label for="payment">Mode of Payment</label>
+            <br>
+            <select name="payment" id="payment">
+                <option value="Cash on Delivery">Cash On Delivery</option>
+                <option value="Online Payment">Online Payment</option>
+                <option value="UPI">UPI</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <button>Place Order</button>
+            <br>
+            <br>
+       
+        </form>
+    </div>
+    
+</body>
+</html>
